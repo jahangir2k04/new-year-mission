@@ -65,6 +65,7 @@ section{
 
 .failures-item{
     display: flex;
+    align-items: center;
 }
 .failures-item p{
     padding-right: 10px;
