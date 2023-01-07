@@ -1,0 +1,207 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-image: url('../images/banner/banner1.png');
+    background-position: center;
+    background-size: cover;
+}
+/* primary button style */
+.primary-btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background: #FD6E0A;
+    border: 0px;
+    border-radius: 5px;
+    padding: 11px 25px;
+}
+/* banner style */
+.banner{
+    text-align: right;
+    padding: 150px 200px 150px 0px ;
+
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #151414;
+
+}
+.banner-description{
+    font-size: 16px;
+    color: #444343;;
+    margin-bottom: 30px;
+}
+/* main cody style */
+main{
+    max-width: 1040px;
+    margin: 0px auto;
+}
+
+section{
+    margin: 120px 0px;
+}
+/* failures section style */
+.failures{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.failures-title{
+    font-size: 50px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 24px;
+ 
+    
+}
+.failures-description{
+    color: #444343;
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
+.failures-item{
+    display: flex;
+}
+.failures-item p{
+    padding-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #444343;
+}
+.failures p img{
+    height: 30px;
+    width: 30px;
+}
+
+/* my plan section style */
+
+.plan-list div{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.plan-list{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.my-plan-title{
+    color: #151414;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+.plan-list h4{
+    font-size: 25px;
+    color: #151414;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    
+}
+.plan-list p{
+    font-size: 20px;
+    color: #757575;
+    margin-top: 0px;
+}
+
+/* success style */
+
+/* .success{
+    background-color: #ffd5d5;
+    padding: 10px;
+} */
+.success-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.success-image{
+    height: 400px;
+    width: 400px;
+    /* border-radius: 50%; */
+}
+.success-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.success-rule img{
+    height: 30px;
+    width: 30px;
+}
+.success-rule div{
+    display: flex;
+    align-items: center;
+}
+.success-rule p{
+    padding-right: 10px;
+    font-size: 25px;
+    margin-top: 0px;
+    font-weight: 600;
+    color: #151414;
+}
+
+/* Attitude Section */
+
+.attitude{
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-position: center;
+    background-size: cover;
+    padding: 60px 120px 60px 60px;
+}
+.attitude h3{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF
+}
+.attitude .primary-btn{
+    background-color: #FFFFFF;
+    color: #FD6E0A;
+    font-size: 20px;
+}
+
+/* footer style */
+footer{
+    background: #151414;
+
+}
+.footer-section{
+    display: flex;
+    padding: 120px 210px;
+    gap: 150px;
+}
+.footer-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.footer-section p{
+    color: #b9b8b8;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.footer-section a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-section input[type="text"], input[type="email"]{
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #444343;
+    border-radius: 5px;
+    background: #151414;
+}
+.footer-section .primary-btn{
+    margin-top: 10px;
+}
