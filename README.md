@@ -1,2 +1,2 @@
-﻿# assignment-1
+﻿# New Year Mission
  * **Live link:** https://new-year-mission.netlify.app/
